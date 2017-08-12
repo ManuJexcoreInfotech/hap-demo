@@ -25,6 +25,20 @@
     <preference name="android-installLocation" value="auto" />
     
     <icon src="www/resources/icon/app-icon-80.png" />
+	
+	<platform name="android">
+		<icon density="ldpi" src="www/resources/icon/app-icon-50.png" />
+		<icon density="mdpi" src="www/resources/icon/app-icon-72.png" />
+		<icon density="hdpi" src="www/resources/icon/app-icon-80.png" />
+		<icon density="xhdpi" src="www/resources//icon/app-icon-114.png" />
+		<icon density="xxhdpi" src="www/resources/icon/app-icon-120.png" />
+		<icon density="xxxhdpi" src="www/resources/icon/app-icon-180.png" />
+		<splash density="port-ldpi" src="www/resources/splash/splash-screen-320X480.png" />
+		<splash density="port-mdpi" src="www/resources/splash/splash-screen-640X960.png" />
+		<splash density="port-hdpi" src="www/resources/splash/splash-screen-1024X768.png" />
+		<splash density="port-xhdpi" src="www/resources/splash/splash-screen-2048X1536.png" />
+	</platform>
+	
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/resources/android/icon/icon-36.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/resources/android/icon/icon-48.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/resources/android/icon/icon-72.png" />
