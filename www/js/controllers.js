@@ -56,7 +56,7 @@ app.run(function($rootScope, globalFactory) {
 });
 // config to disable default ionic navbar back button text and setting a new icon
 app.config(function($ionicConfigProvider) {
-    $ionicConfigProvider.backButton.text('Back').icon('ion-ios-arrow-back').previousTitleText(false);
+    $ionicConfigProvider.backButton.text('').icon('fa fa-arrow-left').previousTitleText(false);
 })
 // main controller file // 
 app.controller('NewsCtrl', ['$scope', '$state', '$ionicSlideBoxDelegate','Color','Config','$location','$localstorage', function($scope, $state, $ionicSlideBoxDelegate, Color, Config,$location,$localstorage) {
