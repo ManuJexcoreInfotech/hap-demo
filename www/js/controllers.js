@@ -439,10 +439,10 @@ app.controller('LoginCtrl', ['$localstorage', '$scope', '$state','$rootScope','C
 				template: '<h4 style="text-align:center">' +msg+'</h4>'
 			});
 			alertPopup.then(function(res) {
-				//if(type=='Success')
+				if(type=='Success')
 					$state.go('news.home');
-				//else
-				//	return;
+				else
+					return;
 			});
 	};
 	$scope.submitForm = function(isValid) {
@@ -453,7 +453,7 @@ app.controller('LoginCtrl', ['$localstorage', '$scope', '$state','$rootScope','C
 				if (res.status==1) {
 					
 					showAlert('Success',res.message);
-					
+					$state.go('news.home');
 					$localstorage.set('user_id',res.u_id);
 					$localstorage.set('username',res.u_name);
 					$localstorage.set('u_email',res.u_email);
