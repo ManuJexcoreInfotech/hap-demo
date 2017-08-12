@@ -122,8 +122,14 @@ img {
     border-radius: 5px;
 }
 .button.button-light{
-    border-color: #ddd !important;
+    border:none !important;
     background-color: #acd435 !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+}
+.button.button-dark{
+    border: none !important;
+    background-color: #222222 !important;
     color: #fff !important;
     border-radius: 10px !important;
 }
@@ -241,3 +247,24 @@ img {
 .bar .button.back-button{
     margin-top: -8px !important;
 }
+.bar.bar-light .title
+{
+	color:#222222!important;
+}
+.item h2
+{
+	color:#333333!important;
+}
+input[type=text],input[type=email],input[type=number]
+{
+	color:#666666!important;
+}
+.row:nth-child(odd) .col{background: #FFFFFF;}
+.row:nth-child(even) .col{background: #E3EFCD;}
+.col { color:#333333;}
+.table-header{color:#000;}
+h2.read{color:#333333;}
+h2.unread{color:#fff!important;}
+.row, .scroll {
+  height: 100%;
+}.row h4{margin:auto 20%;}
