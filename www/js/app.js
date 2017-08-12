@@ -2,7 +2,7 @@
 var port = location.port ? ':'+location.port: '';
 var url = window.location.protocol + '://'+ window.location.hostname+port;
 app.constant("Config", {
-  "WebUrl": url+"/code/happenstance/",
+  "WebUrl": "http://pr.veba.co/~shubantech/happenstance/",
   "AppName" : "Happenspances",
   "AndroidAppUrl" : "https://play.google.com/store/apps/details?id=com.myspecialgames.advanced2048game",
   "ErrorMessage" : "End of results"
