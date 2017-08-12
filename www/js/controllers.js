@@ -61,6 +61,28 @@ app.config(function($ionicConfigProvider) {
 // main controller file // 
 app.controller('NewsCtrl', ['$scope', '$state', '$ionicSlideBoxDelegate','Color','Config','$location','$localstorage', function($scope, $state, $ionicSlideBoxDelegate, Color, Config,$location,$localstorage) {
 	
+	$scope.contact = function() {
+		//$location.path('news/register');
+		$state.go('news.contact');
+	}
+	$scope.home = function() {
+		//$location.path('news/register');
+		$state.go('news.home');
+	}
+	$scope.nearbycontacts = function() {
+		//$location.path('news/register');
+		$state.go('news.nearbycontacts');
+	}
+	$scope.messages = function() {
+		//$location.path('news/register');
+		$state.go('news.messages');
+	}
+	$scope.logout = function() {
+		//$location.path('news/register');
+		$state.go('news.logout');
+	}
+	
+	
 	$scope.appColor = Color.AppColor;
 	$scope.userId = $localstorage.get('user_id');
 	$scope.locPath = $location.path();
