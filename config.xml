@@ -24,7 +24,7 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
     
-    <icon src="www/resources/android/icon/icon-72.png" />
+    <icon src="www/resources/icon/app-icon-80.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/resources/android/icon/icon-36.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/resources/android/icon/icon-48.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/resources/android/icon/icon-72.png" />
