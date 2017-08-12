@@ -1,7 +1,7 @@
 /* importing fonts */
 @font-face {
-    font-family: "Source Sans Pro";
-    src: url("../font/SourceSansPro-Regular.ttf");
+    font-family: "FuturaBT-Book";
+    src: url("../font/FuturaBT-Book.ttf");
 }
 
 @font-face {
@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../font/SourceSansPro-Light.ttf");
+    font-family: "FuturaBT-Medium";
+    src: url("../font/FuturaBT-Medium.ttf");
     font-weight: 300;
 }
 
@@ -37,7 +37,7 @@
 }
 /* basic css reset */
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .button, input, textarea { 
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'FuturaBT-Book', sans-serif; 
 }
 a { 
     text-decoration: none; 
@@ -255,6 +255,9 @@ img {
 {
 	color:#333333!important;
 }
+.title {
+font-family: "FuturaBT-Medium";
+}
 input[type=text],input[type=email],input[type=number]
 {
 	color:#666666!important;
@@ -268,3 +271,4 @@ h2.unread{color:#fff!important;}
 .row, .scroll {
   height: 100%;
 }.row h4{margin:auto 20%;}
+.bar .title{line-height:34px;}
